@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: hello-javascript
-        uses: floralatin/hub-action@v1.0
+        uses: floralatin/hub-actions@v1.0
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
 
