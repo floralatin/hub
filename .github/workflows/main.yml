@@ -10,5 +10,5 @@ jobs:
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
 
-      - name: Get hello-javascript the output
+      - name: Get the output of hello-javascript 
         run: echo "The time was ${{ steps.hello-javascript.outputs.result }}"
