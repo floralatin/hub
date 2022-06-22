@@ -5,5 +5,3 @@ jobs:
     uses: floralatin/hub-actions/.github/workflows/hub-actions.yml@master
     with:
       github-token: ${{ secrets.ACCESS_TOKEN }}
-    secrets:
-       token: ${{ secrets.ACCESS_TOKEN }}
