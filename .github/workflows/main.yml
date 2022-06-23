@@ -1,5 +1,9 @@
 on: [push]
 
 jobs:
+  runs-on: ubuntu-latest
   hello_world_job:
     uses: floralatin/hub-actions/.github/workflows/hub-actions.yml@master
+    with: 
+      github-token: ${{ secrets.ACCESS_TOKEN }}
+    secrets: inherit
