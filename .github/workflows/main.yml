@@ -1,7 +1,13 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  console:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo  The tags are ${{ secrets.ACCESS_TOKEN }} 
+    
+
+  hub-actions:
     uses: floralatin/hub-actions/.github/workflows/hub-actions.yml@master
     with:
       action: 'all'
