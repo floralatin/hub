@@ -4,6 +4,5 @@ jobs:
   hello_world_job:
     uses: floralatin/hub-actions/.github/workflows/hub-actions.yml@master
     with:
-      github-token: ${{ secrets.ACCESS_TOKEN }}
-    secrets:
-      token: ${{ secrets.ACCESS_TOKEN }}
+      github-token: ""
+    secrets: inherit
