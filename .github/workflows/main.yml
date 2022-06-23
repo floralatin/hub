@@ -10,6 +10,6 @@ jobs:
   hub-actions:
     uses: floralatin/hub-actions/.github/workflows/hub-actions.yml@master
     with:
-      action: 'all'
+      actions: 'all'
     secrets: 
       access_token: ${{ secrets.ACCESS_TOKEN }}
