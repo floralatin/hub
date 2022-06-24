@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   hub-actions:
-    uses: floralatin/hub-actions/.github/workflows/main.yml@master
+    uses: jina-ai/hub-integration/.github/workflows/main.yml@build
     with:
       actions: 'sanity_check'
     secrets: 
