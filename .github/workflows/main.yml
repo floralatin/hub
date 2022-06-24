@@ -7,3 +7,4 @@ jobs:
       actions: 'all'
     secrets: 
       access_token: ${{ secrets.ACCESS_TOKEN }}
+      jina_auth_token: ${{ secrets.JINA_AUTH_TOKEN }}
