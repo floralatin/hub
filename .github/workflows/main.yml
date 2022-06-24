@@ -5,6 +5,6 @@ jobs:
     uses: floralatin/hub-actions/.github/workflows/main.yml@master
     with:
       actions: 'all'
-    secrets: 
-      access_token: ${{ secrets.ACCESS_TOKEN }}
-      jina_auth_token: ${{ secrets.JINA_AUTH_TOKEN }}
+    # secrets: 
+    #   access_token: ${{ secrets.ACCESS_TOKEN }}
+    #   jina_auth_token: ${{ secrets.JINA_AUTH_TOKEN }}
