@@ -3,9 +3,7 @@ jobs:
   hub-actions:
     uses: floralatin/hub-actions/.github/workflows/main.yml@master
     with:
-      actions: 'baseline_test'
-      jin_dev_bot: ${{ secrets.JINA_DEV_BOT }}
-      jina_auth_token: ${{ secrets.JINA_AUTH_TOKEN }}
+      actions: 'all'
     secrets:
-      jin_dev_bot: ${{ secrets.JINA_DEV_BOT }}
+      jina_dev_bot: ${{ secrets.JINA_DEV_BOT }}
       jina_auth_token: ${{ secrets.JINA_AUTH_TOKEN }}
