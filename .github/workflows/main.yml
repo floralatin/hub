@@ -1,5 +1,4 @@
 on: [push]
-
 jobs:
   hub-actions:
     uses: floralatin/hub-actions/.github/workflows/main.yml@master
